@@ -61,6 +61,6 @@ app.use((err, req, res, next) => {
 })
 
 // 启动服务器
-app.listen(3007, () => {
-    console.log('api server running at http://127.0.0.1:3007')
+app.listen(3307, () => {
+    console.log("api server running at http://192.168.3.88:3307");
 })
